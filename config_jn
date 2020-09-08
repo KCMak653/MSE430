@@ -18,6 +18,15 @@ export PATH=$PATH:\home\jupyter\.local\bin
 #finish extension installation
 jupyter contrib nbextension install --user
 
+jupyter-nbextension enable codefolding/main
+jupyter-nbextension enable freeze/main
+jupyter-nbextension enable hide_input/main
+jupyter-nbextension enable initialization_cells/main
+jupyter-nbextension enable python_markdown/main
+jupyter-nbextension enable toc2/main
+
+
+
 #Enable extension to activate widgets
 jupyter-nbextension enable --py --sys-prefix widgetsnbextension
 jupyter-nbextension enable nglview --py --sys-prefix
