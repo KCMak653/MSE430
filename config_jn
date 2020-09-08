@@ -21,7 +21,7 @@ jupyter contrib nbextension install --user
 jupyter-nbextension enable codefolding/main
 jupyter-nbextension enable freeze/main
 jupyter-nbextension enable hide_input/main
-jupyter-nbextension enable init_cells/main
+jupyter-nbextension enable init_cell/main
 jupyter-nbextension enable python-markdown/main
 jupyter-nbextension enable toc2/main
 
